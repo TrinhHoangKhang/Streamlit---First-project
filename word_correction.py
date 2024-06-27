@@ -76,10 +76,11 @@ def prepare_vocabs(file_path):
 
     return vocabs
 
+
 def main():
     st.title('Word Correction using Levenshtein Distance')
     input_word = st.text_input('Word:')
-    vocabs = prepare_vocabs(r'data\vocab.txt')
+    vocabs = prepare_vocabs(r'data/vocab.txt')
 
     distances = {}
     if st.button('Compute'):
@@ -96,5 +97,6 @@ def main():
     col2.write(dict(distances))
 
 
+# This is a comment
 if __name__ == '__main__':
     main()
