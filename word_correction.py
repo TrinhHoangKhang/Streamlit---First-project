@@ -76,6 +76,7 @@ def prepare_vocabs(file_path):
 
     return vocabs
 
+
 def main():
     st.title('Word Correction using Levenshtein Distance')
     input_word = st.text_input('Word:')
