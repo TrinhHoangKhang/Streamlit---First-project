@@ -96,5 +96,6 @@ def main():
     col2.write(dict(distances))
 
 
+# This is a comment
 if __name__ == '__main__':
     main()
